@@ -1,0 +1,12 @@
+[
+ {
+    "vcName": "PNHomeViewController",
+    "title": "首页",
+    "imageName": "tabbar_home"
+ },
+ {
+     "vcName": "PNProfileViewController",
+     "title": "我",
+     "imageName": "tabbar_profile"
+ }
+ ]

@@ -1,0 +1,6 @@
+framework module Pods_PNHuaIM {
+  umbrella header "Pods-PNHuaIM-umbrella.h"
+
+  export *
+  module * { export * }
+}
