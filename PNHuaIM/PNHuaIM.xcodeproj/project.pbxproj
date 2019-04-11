@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E9BCFCB648AE8F8C503B28 /* Pods_PNHuaIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD6D9E143EF2F1DF9B02BDA /* Pods_PNHuaIM.framework */; };
 		D00D2CA9225C77AB00069737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D2CA8225C77AB00069737 /* AppDelegate.swift */; };
-		D00D2CAB225C77AB00069737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D2CAA225C77AB00069737 /* ViewController.swift */; };
 		D00D2CAE225C77AB00069737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00D2CAC225C77AB00069737 /* Main.storyboard */; };
 		D00D2CB0225C77AD00069737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00D2CAF225C77AD00069737 /* Assets.xcassets */; };
 		D00D2CB3225C77AD00069737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00D2CB1225C77AD00069737 /* LaunchScreen.storyboard */; };
 		D00D2CBE225C77AD00069737 /* PNHuaIMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D2CBD225C77AD00069737 /* PNHuaIMTests.swift */; };
 		D00D2CC9225C77AD00069737 /* PNHuaIMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D2CC8225C77AD00069737 /* PNHuaIMUITests.swift */; };
+		D00D2CDB225C8CDC00069737 /* PNMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D2CDA225C8CDC00069737 /* PNMainViewController.swift */; };
+		D00D2CE3225C90C400069737 /* PNHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D2CE2225C90C400069737 /* PNHomeViewController.swift */; };
+		D00D2CE5225C912D00069737 /* PNProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D2CE4225C912D00069737 /* PNProfileViewController.swift */; };
+		D0348ED0225DD0F30083402D /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = D0348ECF225DD0F30083402D /* MainVCSettings.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F233C130EC6B69FBB18903B /* Pods-PNHuaIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNHuaIM.release.xcconfig"; path = "Pods/Target Support Files/Pods-PNHuaIM/Pods-PNHuaIM.release.xcconfig"; sourceTree = "<group>"; };
 		D00D2CA5225C77AB00069737 /* PNHuaIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PNHuaIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00D2CA8225C77AB00069737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D00D2CAA225C77AB00069737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D00D2CAD225C77AB00069737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D00D2CAF225C77AD00069737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D00D2CB2225C77AD00069737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		D00D2CC4225C77AD00069737 /* PNHuaIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PNHuaIMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00D2CC8225C77AD00069737 /* PNHuaIMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNHuaIMUITests.swift; sourceTree = "<group>"; };
 		D00D2CCA225C77AD00069737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00D2CDA225C8CDC00069737 /* PNMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNMainViewController.swift; sourceTree = "<group>"; };
+		D00D2CE2225C90C400069737 /* PNHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNHomeViewController.swift; sourceTree = "<group>"; };
+		D00D2CE4225C912D00069737 /* PNProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNProfileViewController.swift; sourceTree = "<group>"; };
+		D0348ECF225DD0F30083402D /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		DAD6D9E143EF2F1DF9B02BDA /* Pods_PNHuaIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PNHuaIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BE41D32FCD32FFE39AB832 /* Pods-PNHuaIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNHuaIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PNHuaIM/Pods-PNHuaIM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E9BCFCB648AE8F8C503B28 /* Pods_PNHuaIM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23F0C40B33545E202E0B1FF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAD6D9E143EF2F1DF9B02BDA /* Pods_PNHuaIM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5CCDAF2291081E6CC365CCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7BE41D32FCD32FFE39AB832 /* Pods-PNHuaIM.debug.xcconfig */,
+				2F233C130EC6B69FBB18903B /* Pods-PNHuaIM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D00D2C9C225C77AB00069737 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				D00D2CBC225C77AD00069737 /* PNHuaIMTests */,
 				D00D2CC7225C77AD00069737 /* PNHuaIMUITests */,
 				D00D2CA6225C77AB00069737 /* Products */,
+				B5CCDAF2291081E6CC365CCB /* Pods */,
+				23F0C40B33545E202E0B1FF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +127,8 @@
 		D00D2CA7225C77AB00069737 /* PNHuaIM */ = {
 			isa = PBXGroup;
 			children = (
+				D00D2CD6225C8A1500069737 /* Classes */,
 				D00D2CA8225C77AB00069737 /* AppDelegate.swift */,
-				D00D2CAA225C77AB00069737 /* ViewController.swift */,
 				D00D2CAC225C77AB00069737 /* Main.storyboard */,
 				D00D2CAF225C77AD00069737 /* Assets.xcassets */,
 				D00D2CB1225C77AD00069737 /* LaunchScreen.storyboard */,
@@ -125,6 +155,97 @@
 			path = PNHuaIMUITests;
 			sourceTree = "<group>";
 		};
+		D00D2CD6225C8A1500069737 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D00D2CD8225C8A1500069737 /* Main */,
+				D00D2CD7225C8A1500069737 /* Home */,
+				D00D2CD9225C8A1500069737 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D00D2CD7225C8A1500069737 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D00D2CDE225C909B00069737 /* Controller */,
+				D00D2CDD225C909B00069737 /* Model */,
+				D00D2CDC225C909B00069737 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D00D2CD8225C8A1500069737 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D0348ECE225DD0F30083402D /* Resource */,
+				D00D2CDA225C8CDC00069737 /* PNMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D00D2CD9225C8A1500069737 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D00D2CDF225C90A600069737 /* Controller */,
+				D00D2CE0225C90A600069737 /* Model */,
+				D00D2CE1225C90A600069737 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D00D2CDC225C909B00069737 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D00D2CDD225C909B00069737 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D00D2CDE225C909B00069737 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D00D2CE2225C90C400069737 /* PNHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D00D2CDF225C90A600069737 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D00D2CE4225C912D00069737 /* PNProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D00D2CE0225C90A600069737 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D00D2CE1225C90A600069737 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0348ECE225DD0F30083402D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D0348ECF225DD0F30083402D /* MainVCSettings.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D00D2CCD225C77AD00069737 /* Build configuration list for PBXNativeTarget "PNHuaIM" */;
 			buildPhases = (
+				EEFF1A1513CF1F5C1F1F6868 /* [CP] Check Pods Manifest.lock */,
 				D00D2CA1225C77AB00069737 /* Sources */,
 				D00D2CA2225C77AB00069737 /* Frameworks */,
 				D00D2CA3225C77AB00069737 /* Resources */,
+				A285574080DE3A05856A8715 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +355,7 @@
 			files = (
 				D00D2CB3225C77AD00069737 /* LaunchScreen.storyboard in Resources */,
 				D00D2CB0225C77AD00069737 /* Assets.xcassets in Resources */,
+				D0348ED0225DD0F30083402D /* MainVCSettings.json in Resources */,
 				D00D2CAE225C77AB00069737 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,13 +376,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A285574080DE3A05856A8715 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PNHuaIM/Pods-PNHuaIM-resources.sh",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/en.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/Emoji.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCColor.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCloud.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Emoji.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCColor.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PNHuaIM/Pods-PNHuaIM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEFF1A1513CF1F5C1F1F6868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PNHuaIM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D00D2CA1225C77AB00069737 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00D2CAB225C77AB00069737 /* ViewController.swift in Sources */,
+				D00D2CE3225C90C400069737 /* PNHomeViewController.swift in Sources */,
 				D00D2CA9225C77AB00069737 /* AppDelegate.swift in Sources */,
+				D00D2CE5225C912D00069737 /* PNProfileViewController.swift in Sources */,
+				D00D2CDB225C8CDC00069737 /* PNMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,8 +606,10 @@
 		};
 		D00D2CCE225C77AD00069737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7BE41D32FCD32FFE39AB832 /* Pods-PNHuaIM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33J2QVQ7CK;
 				INFOPLIST_FILE = PNHuaIM/Info.plist;
@@ -441,7 +618,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zmgj.www.PNHuaIM;
+				PRODUCT_BUNDLE_IDENTIFIER = PNHualM.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,8 +627,10 @@
 		};
 		D00D2CCF225C77AD00069737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F233C130EC6B69FBB18903B /* Pods-PNHuaIM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33J2QVQ7CK;
 				INFOPLIST_FILE = PNHuaIM/Info.plist;
@@ -460,7 +639,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zmgj.www.PNHuaIM;
+				PRODUCT_BUNDLE_IDENTIFIER = PNHualM.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
