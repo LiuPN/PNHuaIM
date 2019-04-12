@@ -17,9 +17,9 @@
 		D00D2CDB225C8CDC00069737 /* PNMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D2CDA225C8CDC00069737 /* PNMainViewController.swift */; };
 		D00D2CE3225C90C400069737 /* PNHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D2CE2225C90C400069737 /* PNHomeViewController.swift */; };
 		D00D2CE5225C912D00069737 /* PNProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D2CE4225C912D00069737 /* PNProfileViewController.swift */; };
-		D02B294222603FCE0071985E /* UIButton_Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B294122603FCE0071985E /* UIButton_Category.swift */; };
+		D02B294422608E5E0071985E /* PNNullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B294322608E5E0071985E /* PNNullViewController.swift */; };
+		D02B294722608EEC0071985E /* UIButton_category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B294622608EEC0071985E /* UIButton_category.swift */; };
 		D0348ED0225DD0F30083402D /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = D0348ECF225DD0F30083402D /* MainVCSettings.json */; };
-		D0B28466225F356E00AEC321 /* PNNullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B28465225F356E00AEC321 /* PNNullViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +56,9 @@
 		D00D2CDA225C8CDC00069737 /* PNMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNMainViewController.swift; sourceTree = "<group>"; };
 		D00D2CE2225C90C400069737 /* PNHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNHomeViewController.swift; sourceTree = "<group>"; };
 		D00D2CE4225C912D00069737 /* PNProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNProfileViewController.swift; sourceTree = "<group>"; };
-		D02B294122603FCE0071985E /* UIButton_Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton_Category.swift; sourceTree = "<group>"; };
+		D02B294322608E5E0071985E /* PNNullViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNNullViewController.swift; sourceTree = "<group>"; };
+		D02B294622608EEC0071985E /* UIButton_category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton_category.swift; sourceTree = "<group>"; };
 		D0348ECF225DD0F30083402D /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
-		D0B28465225F356E00AEC321 /* PNNullViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNNullViewController.swift; sourceTree = "<group>"; };
 		DAD6D9E143EF2F1DF9B02BDA /* Pods_PNHuaIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PNHuaIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7BE41D32FCD32FFE39AB832 /* Pods-PNHuaIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNHuaIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PNHuaIM/Pods-PNHuaIM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,7 +165,7 @@
 				D00D2CD8225C8A1500069737 /* Main */,
 				D00D2CD7225C8A1500069737 /* Home */,
 				D00D2CD9225C8A1500069737 /* Profile */,
-				D02B293F22603F3C0071985E /* Tools */,
+				D02B294522608EB10071985E /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -243,27 +243,20 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		D02B293F22603F3C0071985E /* Tools */ = {
+		D02B294522608EB10071985E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				D02B294022603F3C0071985E /* Category */,
+				D02B294622608EEC0071985E /* UIButton_category.swift */,
 			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		D02B294022603F3C0071985E /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				D02B294122603FCE0071985E /* UIButton_Category.swift */,
-			);
-			path = Category;
-			sourceTree = "<group>";
+			name = Tools;
+			path = PNHuaIM/Classes/Tools;
+			sourceTree = SOURCE_ROOT;
 		};
 		D0348ECE225DD0F30083402D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
 				D0348ECF225DD0F30083402D /* MainVCSettings.json */,
-				D0B28465225F356E00AEC321 /* PNNullViewController.swift */,
+				D02B294322608E5E0071985E /* PNNullViewController.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -453,10 +446,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00D2CE3225C90C400069737 /* PNHomeViewController.swift in Sources */,
+				D02B294722608EEC0071985E /* UIButton_category.swift in Sources */,
 				D00D2CA9225C77AB00069737 /* AppDelegate.swift in Sources */,
 				D00D2CE5225C912D00069737 /* PNProfileViewController.swift in Sources */,
-				D02B294222603FCE0071985E /* UIButton_Category.swift in Sources */,
-				D0B28466225F356E00AEC321 /* PNNullViewController.swift in Sources */,
+				D02B294422608E5E0071985E /* PNNullViewController.swift in Sources */,
 				D00D2CDB225C8CDC00069737 /* PNMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
