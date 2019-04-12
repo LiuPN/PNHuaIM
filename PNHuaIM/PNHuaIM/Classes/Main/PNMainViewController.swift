@@ -54,11 +54,13 @@ extension PNMainViewController{
         // 1 添加加号按钮
         tabBar.addSubview(composeBtn)
         
-        
         // 2 设置frame
         composeBtn.center = CGPoint(x: tabBar.center.x, y: tabBar.bounds.height * 0.5)
         
+        // 3 事件监听
+        composeBtn.addTarget(self, action: #selector(PNMainViewController.composeBtnClick) , for: .touchUpInside)
     }
+   
     
     
     private func setUpChildrenVC() -> Void {
@@ -143,5 +145,11 @@ extension PNMainViewController{
     }
     
 
+}
+/// 事件监听
+extension PNMainViewController{
+    @objc private func composeBtnClick(){
+        print("composeBtnClick")
+    }
 }
 

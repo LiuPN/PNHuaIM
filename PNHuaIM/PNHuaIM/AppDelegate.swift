@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 创建window
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = PNMainViewController();
+
         window?.makeKeyAndVisible()
         
         return true
