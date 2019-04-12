@@ -13,10 +13,55 @@
 import UIKit
 
 class PNMainViewController: UITabBarController {
+    
+    // lazy  苹果推荐使用构造函数创建 不适用类方法。类方法也是可以的，只是不提倡
+    private lazy var composeBtn: UIButton = UIButton(imageName: "tabbarCenterIcon", bgImageName: "")
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // // i == 1的时候 交互关闭
+        for i in 0..<tabBar.items!.count{
+            if i == 1{
+                let item = tabBar.items![i]
+                item.isEnabled = false
+                break
+            }
+            
+        }
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        /// 添加加号按钮
+        setUpComposeBtn()
+
+        // 添加子控制器
+        setUpChildrenVC()
+    
+    }
+    
+    
+   
+}
+
+/// 设置界面的类扩展
+extension PNMainViewController{
+    
+    private func setUpComposeBtn() -> Void {
+        // 1 添加加号按钮
+        tabBar.addSubview(composeBtn)
+        
+        
+        // 2 设置frame
+        composeBtn.center = CGPoint(x: tabBar.center.x, y: tabBar.bounds.height * 0.5)
+        
+    }
+    
+    
+    private func setUpChildrenVC() -> Void {
         // 1 加载json文件  字符串json
         guard let jsonPath = Bundle.main.path(forResource: "MainVCSettings", ofType: "json") else{
             print("加载json数据失败")
@@ -54,16 +99,17 @@ class PNMainViewController: UITabBarController {
             guard let imageName = dict["imageName"] as? String else{
                 continue
             }
-            
             // 添加控制器
             addChildViewChild(vcName, title: title, image: imageName)
+            
         }
   
     }
     
+    
     // private 只能在类中访问  swift有方法的重载（函数名相同，参数类型不同），oc中没有重载的说法
     private func addChildViewChild(_ childVCName: String, title: String, image: String) {
-       
+        
         // 0 动态获取命名空间Executable file  强制解包
         guard let nameSpace = Bundle.main.infoDictionary!["CFBundleExecutable"] as? String else{
             print("没有命名空间")
@@ -88,11 +134,14 @@ class PNMainViewController: UITabBarController {
         // 4 设置属性
         childVC.title = title
         childVC.tabBarItem.image = UIImage(named: image)
-        childVC.tabBarItem.selectedImage = UIImage(named: image + "_highlighted")
+        
+        let selImage = UIImage(named: image + "_selected")
+        childVC.tabBarItem.selectedImage = selImage
+        
         let naviHome = UINavigationController(rootViewController: childVC)
         addChild(naviHome)
     }
-
+    
 
 }
 

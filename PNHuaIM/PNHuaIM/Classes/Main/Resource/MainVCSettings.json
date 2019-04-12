@@ -2,11 +2,16 @@
  {
     "vcName": "PNHomeViewController",
     "title": "首页",
-    "imageName": "tabbar_home"
+    "imageName": "home"
+ },
+ {
+     "vcName": "PNNullViewController",
+     "title": "",
+     "imageName": "123"
  },
  {
      "vcName": "PNProfileViewController",
      "title": "我",
-     "imageName": "tabbar_profile"
+     "imageName": "profile"
  }
  ]
